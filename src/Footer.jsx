@@ -15,7 +15,7 @@ export default function Footer() {
           </a>{" "}
         </p>
         <a
-          href=""
+          href="https://github.com/luisnisc/ReactEstudio.git"
           target="_blank"
           rel="noopener noreferrer"
         >

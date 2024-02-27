@@ -1,8 +1,8 @@
-#root {
-  min-height: 150vh;
+html {
+  max-height: max-content;
   margin: 0 auto;
   text-align: center;
 }
 body{
-  min-height: 150vh;
+ 
 }
