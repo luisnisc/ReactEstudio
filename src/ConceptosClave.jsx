@@ -66,24 +66,28 @@ export default function ConceptosClave() {
         <div className="text-2xl mb-2">Saludo con Props</div>
         <p>
           En este caso vemos un componente simple, el cual hace un saludo, pero
-          este es algo distinto al primero, <br />
-          ya que en este se usa props para introducir el nombre
+          este es algo distinto al primero,
+          ya que en este se usa props para introducir el nombre.
         </p>
         <p>
           Para este ejemplo, el nombre introducido es Pedro, pero este puede ser
-          cambiado por cualquier otro nombre
+          cambiado por cualquier otro nombre.
+        </p>
+        <p>
+          <strong>Usamos el componente poniendo el nombre que queramos para el saludo:</strong>
         </p>
         <ModalImage
           small="../public/usoDeProps.png"
           large="../public/usoDeProps.png"
           className="w-96 mt-4"
         />
-        <Props nombre="Pedro" />
+
         <ModalImage
           small="../public/Props.png"
           large="../public/Props.png"
           className="w-96 mt-4"
         />
+        <Props nombre="Pedro" />
       </div>
     </div>
   );

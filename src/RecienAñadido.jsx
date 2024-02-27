@@ -8,7 +8,7 @@ export default function RecienAñadido() {
       <div className="text-3xl mb-4">Recién Añadido</div>
       <div className="bg-white p-4 rounded shadow flex flex-col items-center justify-center w-160">
         <div className="text-3xl mb-2">Suspense</div>
-        <p>Suspense te permite esperar a que se resuelva una promesa antes de renderizar un componente. Aquí tienes un ejemplo utilizando React.lazy para cargar un componente de manera diferida::</p>
+        <p>Suspense te permite esperar a que se resuelva una promesa antes de renderizar un componente. Aquí tienes un ejemplo utilizando React.lazy para cargar un componente de manera diferida:</p>
         <code>
           <Suspense />
         </code>
