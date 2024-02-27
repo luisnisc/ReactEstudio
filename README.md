@@ -1,4 +1,4 @@
-# Mi Proyecto de React
+# ReactLearn
 
 Este proyecto es una aplicación web creada con React y Tailwind CSS. Su objetivo es enseñar los conceptos básicos de React, técnicas avanzadas y las características recién añadidas de React.
 
