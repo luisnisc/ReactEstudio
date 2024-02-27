@@ -8,7 +8,7 @@ import "./App.css";
 
 export default function ConceptosClave() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen mt-16 space-y-8 bg-gray-100 p-8">
+    <div className="flex flex-col items-center justify-center min-h-screen mt-16 space-y-8 bg-gray-100 p-8 mb-20">
       <div className="text-3xl mb-4">Conceptos Clave</div>
       <div className="bg-white p-4 rounded shadow flex flex-col items-center justify-center w-160">
         <div className="text-3xl mb-2">Componente Simple</div>
@@ -62,7 +62,7 @@ export default function ConceptosClave() {
       </div>
       <br />
       <hr />
-      <div className="bg-white p-4 rounded shadow flex flex-col items-center justify-center w-160">
+      <div className="bg-white p-4 rounded shadow flex flex-col items-center justify-center w-160 ">
         <div className="text-2xl mb-2">Saludo con Props</div>
         <p>
           En este caso vemos un componente simple, el cual hace un saludo, pero
