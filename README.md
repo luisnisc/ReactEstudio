@@ -10,7 +10,7 @@ Este proyecto es una aplicación web creada con React y Tailwind CSS. Su objetiv
 ## Características
 
 - **Conceptos Básicos de React**: Aprende sobre JSX, componentes, props, estado y eventos en React.
-- **Técnicas Avanzadas**: Profundiza en los hooks de React, el renderizado condicional, las listas y las keys, y la elevación del estado.
+- **Técnicas Avanzadas**: Profundiza en los hooks de React, el manejo de eventos, Flujo de datos unidireccional y APIs contextualizadas.
 - **Características Recién Añadidas**: Descubre las últimas adiciones a React, como Suspense y los Server Components.
 
 ## Cómo Empezar
@@ -19,9 +19,9 @@ Para empezar a utilizar este proyecto, sigue estos pasos:
 
 1. Clona el repositorio: `git clone https://github.com/tu-usuario/tu-repositorio.git`
 2. Instala las dependencias: `npm install`
-3. Inicia la aplicación: `npm start`
+3. Inicia la aplicación: `npm run dev`
 
-La aplicación ahora debería estar corriendo en `http://localhost:3000`.
+La aplicación ahora debería estar corriendo en `http://localhost:5173`.
 
 ## Contribuir
 
