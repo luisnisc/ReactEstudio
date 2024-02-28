@@ -4,7 +4,12 @@ import MyButton from './tecnicasAvanzadas/ManejoEventos'
 import Hook from './tecnicasAvanzadas/Hook';
 import ModalImage from "react-modal-image";
 import MyChild from './tecnicasAvanzadas/ContextApi'
+import FlujoDeDatosImage from "../public/FlujoDeDatos.png";
+import ManejoEventosImage from "../public/ManejoEventos.png";
+import HooksImage from "../public/Hooks.png";
+import ContextAPIImage from "../public/ContextAPI.png";
 import './App.css';
+
 export default function TecnicasAvanzadas() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen mt-16 space-y-8 bg-gray-100 p-8 mb-20">
@@ -15,8 +20,8 @@ export default function TecnicasAvanzadas() {
     En React, los datos fluyen hacia abajo desde los componentes padres a los componentes hijos a través de las props. Aquí tienes un ejemplo:
     </p>
     <ModalImage
-          small="../public/FlujoDeDatos.png"
-          large="../public/FlujoDeDatos.png"
+          small={FlujoDeDatosImage}
+          large={FlujoDeDatosImage}
 
           className="w-96 mt-4"
         />
@@ -28,8 +33,8 @@ export default function TecnicasAvanzadas() {
     En React, puedes manejar eventos como clics o cambios de entrada utilizando funciones de manejo de eventos. Aquí tienes un ejemplo:
     </p>
     <ModalImage
-          small="../public/ManejoEventos.png"
-          large="../public/ManejoEventos.png"
+          small={ManejoEventosImage}
+          large={ManejoEventosImage}
 
           className="w-96 mt-4"
         />
@@ -41,8 +46,8 @@ export default function TecnicasAvanzadas() {
     Los Hooks son una característica de React que te permite usar el estado y otras características de React sin escribir una clase. Aquí tienes un ejemplo utilizando el Hook useState:
     </p>
     <ModalImage
-          small="../public/Hooks.png"
-          large="../public/Hooks.png"
+          small={HooksImage}
+          large={HooksImage}
 
           className="w-96 mt-4"
         />
@@ -54,8 +59,8 @@ export default function TecnicasAvanzadas() {
     La API de Contexto te permite compartir valores entre todos los componentes de tu aplicación, sin tener que pasar props manualmente a cada nivel. Aquí tienes un ejemplo:
     </p>
     <ModalImage
-          small="../public/ContextAPI.png"
-          large="../public/ContextAPI.png"
+          small={ContextAPIImage}
+          large={ContextAPIImage}
 
           className="w-96 mt-4"
         />

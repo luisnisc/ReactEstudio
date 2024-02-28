@@ -4,6 +4,11 @@ import State from "./conceptosClave/State";
 import CicloDeVida from "./conceptosClave/CicloDeVida";
 import Props from "./conceptosClave/Props";
 import ModalImage from "react-modal-image";
+import ComponenteBasicoImage from "../public/ComponenteBasico.png";
+import StateImage from "../public/State.png";
+import CicloDeVidaImage from "../public/cicloDeVida.png";
+import PropsImage from "../public/Props.png";
+import UsoDePropsImage from "../public/usoDeProps.png";
 import "./App.css";
 
 export default function ConceptosClave() {
@@ -17,8 +22,8 @@ export default function ConceptosClave() {
           <Saludo />
         </code>
         <ModalImage
-          small="../public/ComponenteBasico.png"
-          large="../public/ComponenteBasico.png"
+          small={ComponenteBasicoImage}
+          large={ComponenteBasicoImage}
           className="w-96 mt-4"
         />
       </div>
@@ -32,8 +37,8 @@ export default function ConceptosClave() {
           crear un contador simple
         </p>
         <ModalImage
-          small="../public/State.png"
-          large="../public/State.png"
+          small={StateImage}
+          large={StateImage}
           className="w-96 mt-4"
         />
         <code>
@@ -55,8 +60,8 @@ export default function ConceptosClave() {
           <CicloDeVida />
         </code>
         <ModalImage
-          small="../public/CicloDeVida.png"
-          large="../public/CicloDeVida.png"
+          small={CicloDeVidaImage}
+          large={CicloDeVidaImage}
           className="w-96 mt-4"
         />
       </div>
@@ -77,14 +82,14 @@ export default function ConceptosClave() {
           <strong>Usamos el componente poniendo el nombre que queramos para el saludo:</strong>
         </p>
         <ModalImage
-          small="../public/usoDeProps.png"
-          large="../public/usoDeProps.png"
+          small={UsoDePropsImage}
+          large={UsoDePropsImage}
           className="w-96 mt-4"
         />
 
         <ModalImage
-          small="../public/Props.png"
-          large="../public/Props.png"
+          small={PropsImage}
+          large={PropsImage}
           className="w-96 mt-4"
         />
         <Props nombre="Pedro" />

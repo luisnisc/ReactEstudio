@@ -1,6 +1,8 @@
 import React from "react";
 import Suspense from "./recienAñadido/Suspense";
 import ModalImage from "react-modal-image";
+import SuspenseImage from "../public/Suspense.png";
+import OtherComponentSuspenseImage from "../public/OtherComponentSuspense.png";
 import "./App.css";
 export default function RecienAñadido() {
   return (
@@ -13,13 +15,13 @@ export default function RecienAñadido() {
           <Suspense />
         </code>
         <ModalImage
-          small="../public/Suspense.png"
-          large="../public/Suspense.png"
+          small={SuspenseImage}
+          large={SuspenseImage}
           className="w-96 mt-4"
         />
         <ModalImage
-          small="../public/OtherComponentSuspense.png"
-          large="../public/OtherComponentSuspense.png"
+          small={OtherComponentSuspenseImage}
+          large={OtherComponentSuspenseImage}
           className="w-96 mt-4"
         />
       </div>
