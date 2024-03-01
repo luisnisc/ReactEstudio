@@ -9,10 +9,18 @@ import StateImage from "../public/State.png";
 import CicloDeVidaImage from "../public/cicloDeVida.png";
 import PropsImage from "../public/Props.png";
 import UsoDePropsImage from "../public/usoDeProps.png";
+import {motion} from "framer-motion";
 import "./App.css";
+
 
 export default function ConceptosClave() {
   return (
+    <motion.div
+    initial={{marginTop: 1000}}
+    animate={{marginTop: 0}}
+    transition={{ duration: 0.5 }}
+    exit={{ marginTop: -1000 }}
+    >
     <div className="flex flex-col items-center justify-center min-h-screen mt-16 space-y-8 bg-gray-100 p-8 mb-20">
       <div className="text-3xl mb-4">Conceptos Clave</div>
       <div className="bg-white p-4 rounded shadow flex flex-col items-center justify-center w-160">
@@ -95,5 +103,6 @@ export default function ConceptosClave() {
         <Props nombre="Pedro" />
       </div>
     </div>
+    </motion.div>
   );
 }

@@ -28,7 +28,7 @@ export default function NavegationBar() {
               <li>
                 <Link
                   to="/"
-                  className="block py-2 pl-3 pr-4 text-blue-800  rounded"
+                  className="block py-2 pl-3 pr-4 text-blue-900 bg-blue-600 rounded-full "
                   aria-current="page"
                 >
                  Home
@@ -37,7 +37,7 @@ export default function NavegationBar() {
               <li>
                 <Link
                   to="/conceptosClave/conceptosClave"
-                  className= {loc == "conceptosClave"?  "block py-2 pl-3 pr-4 text-blue-800 rounded": "block py-2 pl-3 pr-4 text-white  rounded hover:text-blue-800"}
+                  className= {loc == "conceptosClave"?  "block py-2 pl-3 pr-4 text-blue-900 bg-blue-600 rounded-full": "block py-2 pl-3 pr-4 text-white  rounded-full hover:text-blue-900 hover:bg-blue-600 bg-blue-400"}
                 >
                   Conceptos Clave
                 </Link>
@@ -45,7 +45,7 @@ export default function NavegationBar() {
               <li>
                 <Link
                   to="/tecnicasAvanzadas/tecnicasAvanzadas"
-                  className= {loc == "tecnicasAvanzadas"?  "block py-2 pl-3 pr-4 text-blue-800 rounded": "block py-2 pl-3 pr-4 text-white  rounded hover:text-blue-800"}
+                  className= {loc == "tecnicasAvanzadas"?  "block py-2 pl-3 pr-4 text-blue-900 rounded-full bg-blue-600": "block py-2 pl-3 pr-4 text-white  rounded-full hover:text-blue-900 hover:bg-blue-600 bg-blue-400"}
                 >
                   Técnicas Avanzadas
                 </Link>
@@ -53,7 +53,7 @@ export default function NavegationBar() {
               <li>
                 <Link
                   to="/recienAñadido/recienAñadido"
-                  className= {loc == "recienAñadido" ? "block py-2 pl-3 pr-4 text-blue-800 rounded": "block py-2 pl-3 pr-4 text-white  rounded hover:text-blue-800"}
+                  className= {loc == "recienAñadido" ? "block py-2 pl-3 pr-4 text-blue-900 rounded-full bg-blue-600": "block py-2 pl-3 pr-4 text-white  rounded-full hover:text-blue-900 hover:bg-blue-600 bg-blue-400"}
                 >
                   Recien Añadido
                 </Link>

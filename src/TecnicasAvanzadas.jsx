@@ -8,10 +8,17 @@ import FlujoDeDatosImage from "../public/FlujoDeDatos.png";
 import ManejoEventosImage from "../public/ManejoEventos.png";
 import HooksImage from "../public/Hooks.png";
 import ContextAPIImage from "../public/ContextAPI.png";
+import {motion} from "framer-motion";
 import './App.css';
 
 export default function TecnicasAvanzadas() {
   return (
+    <motion.div
+    initial={{marginTop: 1000}}
+    animate={{marginTop: 0}}
+    transition={{ duration: 0.5 }}
+    exit={{ marginTop: -1000 }}
+    >
     <div className="flex flex-col items-center justify-center min-h-screen mt-16 space-y-8 bg-gray-100 p-8 mb-20">
     <div className="text-3xl mb-4">Tecnicas Avanzadas</div>
     <div className="bg-white p-4 rounded shadow flex flex-col items-center justify-center w-160">
@@ -67,5 +74,6 @@ export default function TecnicasAvanzadas() {
     <MyChild />
     </div>
     </div>
+    </motion.div>
   )
 }
