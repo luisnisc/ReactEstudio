@@ -60,7 +60,7 @@ export default function ConceptosClave() {
         <div className="text-3xl">Ciclo de vida</div>
         <p>
           En este ejemplo podemos el ciclo de vida de un componente (ver la
-          terminal del navegador), como podemos ver, <br />
+          consola del navegador), como podemos ver, <br />
           cada vez que le damos click al boton, el componente se actualiza para
           mostrar el número de pulsaciones
         </p>
@@ -76,7 +76,7 @@ export default function ConceptosClave() {
       <br />
       <hr />
       <div className="bg-white p-4 rounded shadow flex flex-col items-center justify-center w-160 ">
-        <div className="text-2xl mb-2">Saludo con Props</div>
+        <div className="text-3xl mb-2">Saludo con Props</div>
         <p>
           En este caso vemos un componente simple, el cual hace un saludo, pero
           este es algo distinto al primero,
