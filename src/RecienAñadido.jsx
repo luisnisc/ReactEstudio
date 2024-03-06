@@ -8,12 +8,14 @@ import "./App.css";
 export default function RecienAñadido() {
   return (
     <motion.div
-      initial={{ marginTop: 1000 }}
-      animate={{ marginTop: 0 }}
-      transition={{ duration: 0.5}}
-      exit={{ marginTop: -1000 }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
     >
-      <div className="flex flex-col items-center justify-center min-h-screen space-y-8 bg-gray-100 p-8 mb-20 " id="reciente">
+      <div
+        className="flex flex-col items-center justify-center min-h-screen space-y-8 bg-gray-100 p-8 mb-20 "
+        id="reciente"
+      >
         <div className="text-3xl mb-4">Recién Añadido</div>
         <div className="bg-white p-4 rounded shadow flex flex-col items-center justify-center w-160">
           <div className="text-3xl mb-2">Suspense</div>
