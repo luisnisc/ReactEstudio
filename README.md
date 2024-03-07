@@ -17,7 +17,7 @@ Este proyecto es una aplicación web creada con React y Tailwind CSS. Su objetiv
 
 Para empezar a utilizar este proyecto, sigue estos pasos:
 
-1. Clona el repositorio: `git clone https://github.com/tu-usuario/tu-repositorio.git`
+1. Clona el repositorio: `git clone https://github.com/luisnisc/ReactLearn.git`
 2. Instala las dependencias: `npm install`
 3. Inicia la aplicación: `npm run dev`
 

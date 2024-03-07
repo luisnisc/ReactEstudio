@@ -12,7 +12,7 @@ export default function Footer() {
             href="https://github.com/luisnisc"
           >
             LuisNisc
-          </a>{" "}
+          </a>
         </p>
         <a
           href="https://github.com/luisnisc/ReactEstudio.git"
