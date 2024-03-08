@@ -21,7 +21,7 @@ export default function TecnicasAvanzadas() {
       <div className="flex flex-col items-center justify-center min-h-screen mt-16 space-y-8 bg-gray-100 p-8 mb-20">
         <div className="text-3xl mb-4">Tecnicas Avanzadas</div>
         <div className="bg-white p-4 rounded shadow flex flex-col items-center justify-center w-160">
-          <div className="text-3xl">Fluje unidireccional de datos</div>
+          <div className="text-3xl">Flujo unidireccional de datos</div>
           <p>
             En React, los datos fluyen hacia abajo desde los componentes padres
             a los componentes hijos a través de las props. Aquí tienes un
