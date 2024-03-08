@@ -58,7 +58,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: '/conceptosClave/:loc',
+        path: '/conceptosClave',
         element: (
           <RouteTransition>
             <ConceptosClave />
@@ -66,7 +66,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: '/tecnicasAvanzadas/:loc',
+        path: '/tecnicasAvanzadas',
         element: (
           <RouteTransition>
             <TecnicasAvanzadas />
@@ -74,7 +74,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: '/recienAñadido/:loc',
+        path: '/recienAnadido',
         element: (
           <RouteTransition>
             <RecienAñadido />
