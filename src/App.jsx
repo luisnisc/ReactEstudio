@@ -11,8 +11,8 @@ function App() {
         <div className="mt-36  text-center">
           <div className="text-4xl">Hola, bienvenido a mi página de React!</div>
           <div className="text-xl mt-4">
-            En esta página podras aprender y ver tanto los conceptos clave de
-            React, como unas técnicas un poco mas avanzadas o características
+            En esta página podras aprender y ver tanto conceptos clave de
+            React, como técnicas un poco mas avanzadas o características
             recientemente añadidas
           </div>
         </div>

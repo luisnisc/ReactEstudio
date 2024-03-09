@@ -83,7 +83,7 @@ export default function ConceptosClave() {
           <p>
             En este ejemplo podemos el ciclo de vida de un componente (ver la
             consola del navegador), como podemos ver, <br />
-            cada vez que le damos click al boton, el componente se actualiza
+            cada vez que le damos click al botón, el componente se actualiza
             para mostrar el número de pulsaciones
           </p>
           <ModalImage

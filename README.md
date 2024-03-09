@@ -11,7 +11,7 @@ Este proyecto es una aplicación web creada con React y Tailwind CSS. Su objetiv
 
 - **Conceptos Básicos de React**: Aprende sobre JSX, componentes, props, estado y eventos en React.
 - **Técnicas Avanzadas**: Profundiza en los hooks de React, el manejo de eventos, Flujo de datos unidireccional y Context APIs.
-- **Características Recién Añadidas**: Descubre las últimas adiciones a React, como Suspense y los Server Components.
+- **Características Recién Añadidas**: Descubre las últimas adiciones a React, como Suspense.
 
 ## Cómo Empezar
 
