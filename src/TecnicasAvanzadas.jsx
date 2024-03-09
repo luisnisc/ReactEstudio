@@ -1,13 +1,12 @@
-import React from "react";
 import ParentComponent from "./tecnicasAvanzadas/FlujoUnidireccionalDatos";
 import MyButton from "./tecnicasAvanzadas/ManejoEventos";
 import Hook from "./tecnicasAvanzadas/Hook";
 import ModalImage from "react-modal-image";
 import MyChild from "./tecnicasAvanzadas/ContextApi";
-import FlujoDeDatosImage from "../public/FlujoDeDatos.png";
-import ManejoEventosImage from "../public/ManejoEventos.png";
-import HooksImage from "../public/Hooks.png";
-import ContextAPIImage from "../public/ContextAPI.png";
+import FlujoDeDatosImage from "/FlujoDeDatos.png";
+import ManejoEventosImage from "/ManejoEventos.png";
+import HooksImage from "/Hooks.png";
+import ContextAPIImage from "/ContextAPI.png";
 import { motion } from "framer-motion";
 import "./App.css";
 

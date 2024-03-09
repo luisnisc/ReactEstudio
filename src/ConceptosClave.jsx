@@ -1,14 +1,13 @@
-import React from "react";
 import Saludo from "./conceptosClave/ComponenteSimple";
 import State from "./conceptosClave/State";
 import CicloDeVida from "./conceptosClave/CicloDeVida";
 import Props from "./conceptosClave/Props";
 import ModalImage from "react-modal-image";
-import ComponenteBasicoImage from "../public/ComponenteBasico.png";
-import StateImage from "../public/State.png";
-import CicloDeVidaImage from "../public/cicloDeVida.png";
-import PropsImage from "../public/Props.png";
-import UsoDePropsImage from "../public/usoDeProps.png";
+import ComponenteBasicoImage from "/ComponenteBasico.png";
+import StateImage from "/State.png";
+import CicloDeVidaImage from "/cicloDeVida.png";
+import PropsImage from "/Props.png";
+import UsoDePropsImage from "/usoDeProps.png";
 import { motion } from "framer-motion";
 import "./App.css";
 
@@ -24,56 +23,16 @@ export default function ConceptosClave() {
         <div className="bg-white p-4 rounded shadow flex flex-col items-center justify-center w-160">
           <div className="text-3xl mb-2">Componente Simple</div>
           <p>Este es un componente simple en el cual hay un saludo:</p>
-          <code>
-            <Saludo />
-          </code>
           <ModalImage
             small={ComponenteBasicoImage}
             large={ComponenteBasicoImage}
             className="w-96 mt-4"
           />
-        </div>
-        <br />
-        <hr />
-        <div className="bg-white p-4 rounded shadow flex flex-col items-center justify-center w-160">
-          <div className="text-3xl">Estado</div>
-
-          <p>
-            En este ejemplo podemos ver el uso de useState, el cual nos permite
-            crear un contador simple
-          </p>
-          <ModalImage
-            small={StateImage}
-            large={StateImage}
-            className="w-96 mt-4"
-          />
-          <code>
-            <State />
+           <code>
+            <Saludo />
           </code>
         </div>
-
-        <br />
-        <hr />
         <div className="bg-white p-4 rounded shadow flex flex-col items-center justify-center w-160">
-          <div className="text-3xl">Ciclo de vida</div>
-          <p>
-            En este ejemplo podemos el ciclo de vida de un componente (ver la
-            consola del navegador), como podemos ver, <br />
-            cada vez que le damos click al boton, el componente se actualiza
-            para mostrar el número de pulsaciones
-          </p>
-          <code>
-            <CicloDeVida />
-          </code>
-          <ModalImage
-            small={CicloDeVidaImage}
-            large={CicloDeVidaImage}
-            className="w-96 mt-4"
-          />
-        </div>
-        <br />
-        <hr />
-        <div className="bg-white p-4 rounded shadow flex flex-col items-center justify-center w-160 ">
           <div className="text-3xl mb-2">Saludo con Props</div>
           <p>
             En este caso vemos un componente simple, el cual hace un saludo,
@@ -103,6 +62,40 @@ export default function ConceptosClave() {
           />
           <Props nombre="Pedro" />
         </div>
+        <div className="bg-white p-4 rounded shadow flex flex-col items-center justify-center w-160">
+          <div className="text-3xl">Estado</div>
+
+          <p>
+            En este ejemplo podemos ver el uso de useState, el cual nos permite
+            crear un contador simple
+          </p>
+          <ModalImage
+            small={StateImage}
+            large={StateImage}
+            className="w-96 mt-4"
+          />
+          <code>
+            <State />
+          </code>
+        </div>
+        <div className="bg-white p-4 rounded shadow flex flex-col items-center justify-center w-160">
+          <div className="text-3xl">Ciclo de vida</div>
+          <p>
+            En este ejemplo podemos el ciclo de vida de un componente (ver la
+            consola del navegador), como podemos ver, <br />
+            cada vez que le damos click al boton, el componente se actualiza
+            para mostrar el número de pulsaciones
+          </p>
+          <ModalImage
+            small={CicloDeVidaImage}
+            large={CicloDeVidaImage}
+            className="w-96 mt-4"
+          />
+          <code>
+            <CicloDeVida />
+          </code>
+        </div>
+        
       </div>
     </motion.div>
   );

@@ -1,8 +1,7 @@
-import React from "react";
 import Suspense from "./recienAñadido/Suspense";
 import ModalImage from "react-modal-image";
-import SuspenseImage from "../public/Suspense.png";
-import OtherComponentSuspenseImage from "../public/OtherComponentSuspense.png";
+import SuspenseImage from "/Suspense.png";
+import OtherComponentSuspenseImage from "/OtherComponentSuspense.png";
 import { motion } from "framer-motion";
 import "./App.css";
 export default function RecienAñadido() {

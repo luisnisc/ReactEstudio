@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function ChildComponent(props) {
   return <div>Hola, {props.name}</div>;
